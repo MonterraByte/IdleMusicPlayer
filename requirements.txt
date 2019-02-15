@@ -1,0 +1,8 @@
+aiodns>=1.2
+aiofiles>=0.4
+aiohttp>=3.5.4
+cchardet>=2.1.4
+pafy>=0.5.4
+python-vlc>=3.0.4106
+pytaglib>=1.4.4
+youtube_dl>=2019.2.8

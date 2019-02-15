@@ -1,0 +1,20 @@
+/*
+  This is an example schedule.json
+  Remove this comments before using this file (comments aren't valid JSON)
+
+  The keys "0" through "6" represent the days of the week,
+  with 0 being Monday and 6 being Sunday.
+
+  The values are arrays of intervals in which to play.
+  Intervals are arrays with two elements: start time and end time,
+  represented as strings with the format "HH:MM:SS".
+*/
+{
+  "0": [["10:00:00", "12:00:00"]],
+  "1": [["10:00:00", "12:00:00"], ["13:00:00", "19:30:00"]],
+  "2": [["10:00:00", "12:00:00"], ["13:00:00", "19:30:00"]],
+  "3": [["15:15:00", "15:30:00"], ["16:00:00", "19:30:00"]],
+  "4": [["00:00:00", "23:59:59"]],
+  "5": [],
+  "6": []
+}
